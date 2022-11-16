@@ -1,0 +1,38 @@
+.footer{
+    background: linear-gradient(to right, rgb(128 128 128 / 0.8), rgb(128 128 128 / 0.6));
+    padding: 3rem 0;
+    margin: 5rem 0 0 0 ; 
+
+    
+}
+.navegacion a{
+    color: var(--blanco);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 3rem;
+    font-weight: 600;
+}
+.navegacion a:hover{
+    color: black;
+}
+.barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.barra p{
+    color: black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+@media(max-width:768px){
+    .barra{
+        flex-direction: column;
+    }
+}
+@media(max-width: 768px){
+    .navegacion{
+        margin-top: 3rem;
+    }
+}

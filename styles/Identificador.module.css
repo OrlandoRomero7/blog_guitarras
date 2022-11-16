@@ -1,0 +1,35 @@
+
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    width: 80rem;
+    gap: 5rem;
+    /* padding: 0  1rem 0 1rem; */
+    border: solid 0.3rem gray;
+    
+    background-color: rgb(232, 229, 229);
+    box-shadow: 2rem 2rem 0.5rem #999;
+    
+}
+.imagen{
+    width: 25rem;
+    text-align: center;
+}
+.imagen h1{
+    margin-bottom: 2rem;
+}
+.texto{
+    width: 40rem;
+    text-align: center;
+}
+.texto h3{
+    font-size: 1.2rem;
+}
+@media (min-width:768px){
+    .blog{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
